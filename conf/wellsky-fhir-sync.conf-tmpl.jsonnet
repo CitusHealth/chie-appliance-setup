@@ -12,5 +12,7 @@
         "wellSkyCPRPlusToCitusLastUpdatedTimeFile":"/data/last_update.json",
         "wellSkyCPRPlusToCitusLogFileLocation":"/data/logs/",
         "CitusToWellSkyCPRPlusLastUpdatedTimeFile":"",
-        "CitusToWellSkyCPRPlusLogFileLocation":""
+        "CitusToWellSkyCPRPlusLogFileLocation":"",
+		 "wellSkyPatientPollingWithUpsert":false
+		
 }
