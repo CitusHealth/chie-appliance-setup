@@ -7,7 +7,7 @@
   tasks:
     - name: Clone Citus Health Integration Engine (CHIE) CCF Containers
       git:
-       name: https://{{ chp_github_account | urlencode }}:{{ chp_github_account_token | urlencode }}@github.com/CitusHealthIntegrationEngine/chie-ccf-containers.git
+       name: https://{{ chp_github_account | urlencode }}:{{ chp_github_account_token | urlencode }}@github.com/CitusHealthIntegrationEngine/{{ chp_github_accout_name }}.git
        dest: '{{citus_health_containers_path}}'
        force: yes
 
