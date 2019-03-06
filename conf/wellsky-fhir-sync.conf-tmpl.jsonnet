@@ -13,6 +13,8 @@
         "wellSkyCPRPlusToCitusLogFileLocation":"/data/logs/",
         "CitusToWellSkyCPRPlusLastUpdatedTimeFile":"",
         "CitusToWellSkyCPRPlusLogFileLocation":"",
-		 "wellSkyPatientPollingWithUpsert":false
-		
+		"citusProgressNoteFolderPollingFrequencyInMinutes": "1",
+		"citusProgressNoteFolderPath":"/opt/progress_notes/",
+		"archiveFolderPath":"/opt/Archives/",
+		"wellSkyPatientPollingWithUpsert":false	
 }
