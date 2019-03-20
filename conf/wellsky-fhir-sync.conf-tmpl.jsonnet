@@ -13,8 +13,13 @@
         "wellSkyCPRPlusToCitusLogFileLocation":"/data/logs/",
         "CitusToWellSkyCPRPlusLastUpdatedTimeFile":"",
         "CitusToWellSkyCPRPlusLogFileLocation":"",
-		"citusProgressNoteFolderPollingFrequencyInMinutes": "1",
-		"citusProgressNoteFolderPath":"/opt/progress_notes/",
-		"archiveFolderPath":"/opt/Archives/",
-		"wellSkyPatientPollingWithUpsert":false	
+	"citusProgressNoteFolderPollingFrequencyInMinutes": "1",
+	"citusProgressNoteFolderPath":"/opt/progressNotes/",
+	"archiveFolderPath":"/opt/Archives/",
+	"wellSkyPatientPollingWithUpsert":false,
+	"failedFolderPath":"opt/failedFiles",
+	"successStatusCode":201
+
+	
+	
 }
