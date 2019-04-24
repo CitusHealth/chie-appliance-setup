@@ -7,9 +7,9 @@
 		"citusFacadeUrl": "https://fhir.optionone.sandbox.citushealth.com/3_0_1",
 		"citusFHIRFacadeUserName": "xxxxxxxx",
 		"citusFHIRFacadePassword":"xxxxxxxx",
-		"accountId" : "42675",
-		"accountName" : "tenant abcd",
-		"env" : "CPR Plus",
+		"accountId" : "tenant accountId",
+		"accountName" : "tenant accountName",
+		"env" : "DB env",
 		"CitusCompositionPollingFrequencyInMinutes": "1",
 		"CitusCompositionRecordDurationInMinutes": "1",
 		"wellSkyCPRPlusToCitusLastUpdatedTimeFile":"/data/last_update.json",
@@ -20,7 +20,7 @@
 		"citusProgressNoteFolderPath":"/opt/progressNotes/",
 		"archiveFolderPath":"/opt/Archives/",
 		"wellSkyPatientPollingWithUpsert":false,
-		"failedFolderPath":"opt/failedFiles",
+		"failedFolderPath":"/opt/failedFiles/",
 		"pollingOffset" : 0,
 		"successStatusCode":201
 
