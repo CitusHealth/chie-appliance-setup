@@ -6,7 +6,7 @@
 	"wellSkyCPRPlusDbPort":1433,
 	"wellSkyCPRPlusDbTimeZoneOffset":-4,
 	"wellSkyCPRPlusDbPollingInterval":-1,
-	"filingCenterPath": "/src/progress_notes/",
+	"filingCenterPath": "/src/progress_notes/json/",
 	"accountName": "lacal development",
 	"accountId": "test123",
 	"ModuleId": "testmoduleid",
