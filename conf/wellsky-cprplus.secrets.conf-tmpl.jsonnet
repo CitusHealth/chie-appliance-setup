@@ -1,16 +1,17 @@
 {
-	"wellSkyCPRPlusDbHost": "10.10.10.24",
-	"wellSkyCPRPlusDbName": "cprsql",
-	"wellSkyCPRPlusDbUser": "sa",
-	"wellSkyCPRPlusDbPassoword": "Admin+001",
+	"wellSkyCPRPlusDbHost": "DbHost",
+	"wellSkyCPRPlusDbName": "DbName",
+	"wellSkyCPRPlusDbUser": "DbUser",
+	"wellSkyCPRPlusDbPassoword": "DbPassoword",
 	"wellSkyCPRPlusDbPort":1433,
 	"wellSkyCPRPlusDbTimeZoneOffset":-4,
 	"wellSkyCPRPlusDbPollingInterval":-1,
 	"filingCenterPath": "/src/progress_notes/json/",
-	"accountName": "lacal development",
-	"accountId": "test123",
-	"ModuleId": "testmoduleid",
-	"enviornment": "local",
-	"isMultiBranch":1
+	"accountName": "Tenant account name",
+	"accountId": "Tenant account id",
+	"ModuleId": "Tenant Module id",
+	"enviornment": "Enviornment",
+	"isMultiBranch":0
 
 }
+
