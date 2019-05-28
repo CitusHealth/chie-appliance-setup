@@ -10,8 +10,6 @@
 		"accountId" : "tenant accountId",
 		"accountName" : "tenant accountName",
 		"env" : "DB env",
-		"CitusCompositionPollingFrequencyInMinutes": "1",
-		"CitusCompositionRecordDurationInMinutes": "1",
 		"wellSkyCPRPlusToCitusLastUpdatedTimeFile":"/data/last_update.json",
 		"logFilePath":"/data/logs/",
 		"CitusToWellSkyCPRPlusLastUpdatedTimeFile":"",
@@ -22,6 +20,8 @@
 		"wellSkyPatientPollingWithUpsert":false,
 		"failedFolderPath":"/opt/failedFiles/",
 		"pollingOffset" : 0,
-		"successStatusCode":201
+		"successStatusCode":201,
+		"enablePatientOnboardingFlow":1,
+        "enableProgressNoteGenerationFlow":1
 
 }
