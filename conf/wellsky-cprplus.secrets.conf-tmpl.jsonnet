@@ -11,7 +11,8 @@
 	"accountId": "Tenant account id",
 	"ModuleId": "Tenant Module id",
 	"enviornment": "Enviornment",
-	"isMultiBranch":0
+	"isMultiBranch":0,
+	"enableStoredProcedureForProgressNote":0	
 
 }
 
