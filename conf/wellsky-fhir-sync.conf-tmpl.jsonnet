@@ -1,10 +1,10 @@
 {
-		"wellSkyCPRPlusFHIRFacadeURL": "http://192.168.1.172:3000/3_0_1",
+		"wellSkyCPRPlusFHIRFacadeURL": "http://localhost:3000/3_0_1",
 		"wellSkyCPRPlusFHIRFacadeUserName": "xxxxxxxx",
 		"wellSkyCPRPlusFHIRFacadePassword": "xxxxxxxx",
 		"wellSkyPatientPollingFrequencyInMinutes": "1",
 		"wellSkyPatientRecordDurationInMinutes": "1",
-		"citusFacadeUrl": "https://fhir.optionone.sandbox.citushealth.com/3_0_1",
+		"citusFacadeUrl": "https://fhir.localhost.citushealth.com/3_0_1",
 		"citusFHIRFacadeUserName": "xxxxxxxx",
 		"citusFHIRFacadePassword":"xxxxxxxx",
 		"accountId" : "tenant accountId",
@@ -15,7 +15,7 @@
 		"CitusToWellSkyCPRPlusLastUpdatedTimeFile":"",
 		"CitusToWellSkyCPRPlusLogFileLocation":"",
 		"citusProgressNoteFolderPollingFrequencyInMinutes": "1",
-		"citusProgressNoteFolderPath":"/opt/progressNotes/",
+		"citusProgressNoteFolderPath":"/opt/progressNotes/json/",
 		"archiveFolderPath":"/opt/Archives/",
 		"wellSkyPatientPollingWithUpsert":false,
 		"failedFolderPath":"/opt/failedFiles/",
@@ -23,5 +23,10 @@
 		"successStatusCode":201,
 		"enablePatientOnboardingFlow":1,
         "enableProgressNoteGenerationFlow":1
+		"cachingDatabaseConnectionUrl":"redis://:foobared@10.10.10.170:6379/0",
+		"cachingDatabaseHost":"10.10.10.170",
+		"cachingDatabasePort":6379,
+		"mrnKeyExpirationIntervalInSeconds":86400
+
 
 }
