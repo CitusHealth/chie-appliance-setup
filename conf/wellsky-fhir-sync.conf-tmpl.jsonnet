@@ -12,8 +12,6 @@
 		"env" : "DB env",
 		"wellSkyCPRPlusToCitusLastUpdatedTimeFile":"/data/last_update.json",
 		"logFilePath":"/data/logs/",
-		"CitusToWellSkyCPRPlusLastUpdatedTimeFile":"",
-		"CitusToWellSkyCPRPlusLogFileLocation":"",
 		"citusProgressNoteFolderPollingFrequencyInMinutes": "1",
 		"citusProgressNoteFolderPath":"/opt/progressNotes/json/",
 		"archiveFolderPath":"/opt/Archives/",
@@ -23,10 +21,9 @@
 		"successStatusCode":201,
 		"enablePatientOnboardingFlow":1,
         "enableProgressNoteGenerationFlow":1
+		"enableDuplicateMRNValidation":0,
 		"cachingDatabaseConnectionUrl":"redis://:foobared@10.10.10.170:6379/0",
 		"cachingDatabaseHost":"10.10.10.170",
 		"cachingDatabasePort":6379,
 		"mrnKeyExpirationIntervalInSeconds":86400
-
-
 }
