@@ -9,7 +9,7 @@ title "Install osQuery"
 #sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys $OSQUERY_KEY
 sudo rpm -ivh https://osquery-packages.s3.amazonaws.com/centos7/noarch/osquery-s3-centos7-repo-1-0.0.noarch.rpm
 sudo yum install -y osquery 
-
+sudo yum groupinstall 'Development Tools'
 title "Install roles from Ansible Galaxy"
 sudo ansible-galaxy install geerlingguy.docker
 sudo ansible-galaxy install bertvv.samba
