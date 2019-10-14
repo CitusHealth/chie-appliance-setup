@@ -6,8 +6,8 @@
     - ../conf/appliance.common.conf.yml
   tasks:
     - name: Install standard packages
-      apt:
-        name: ['davfs2', 'htop', 'tree', 'jq', 'fail2ban', 'vim', 'mosh', 'ufw', 'prometheus-node-exporter', 'python-pip', 'inetutils-traceroute']
+      yum:
+        name: ['davfs2', 'htop', 'tree', 'jq', 'fail2ban', 'vim', 'mosh', 'ufw' , 'python-pip']
         update_cache: yes
 
     - name: Install jsonnet
@@ -43,12 +43,13 @@
         name=OpenSSH
 
     - name: Set to deny incoming requests by default
-      ufw: >
-        default=deny
+      ufw: 
+        default: deny
 
     - name: Turn on UFW
-      ufw: >
-        state=enabled
+      ufw: 
+        state: enabled
+        policy: allow
 
     - name: Set memory limit in GRUB
       lineinfile: >

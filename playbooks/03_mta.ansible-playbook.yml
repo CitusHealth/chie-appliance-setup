@@ -36,4 +36,4 @@
       when: dragonfly_mta_alias_mail is defined
 
     - name: Install additional mail utilities
-      package: name=mailutils state=latest
+      package: name=mailx state=latest

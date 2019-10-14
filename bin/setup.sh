@@ -6,13 +6,9 @@ title() {
 }
 
 title "Install osQuery"
-export OSQUERY_KEY=1484120AC4E9F8A1A577AEEE97A80C63C9D8B80B
-sudo gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 1484120AC4E9F8A1A577AEEE97A80C63C9D8B80B
-sudo gpg -a --export  1484120AC4E9F8A1A577AEEE97A80C63C9D8B80B | sudo apt-key add -
 #sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys $OSQUERY_KEY
-sudo add-apt-repository 'deb [arch=amd64] https://pkg.osquery.io/deb deb main'
-sudo apt-get update
-sudo apt-get install -y osquery
+sudo rpm -ivh https://osquery-packages.s3.amazonaws.com/centos7/noarch/osquery-s3-centos7-repo-1-0.0.noarch.rpm
+sudo yum install -y osquery 
 
 title "Install roles from Ansible Galaxy"
 sudo ansible-galaxy install geerlingguy.docker

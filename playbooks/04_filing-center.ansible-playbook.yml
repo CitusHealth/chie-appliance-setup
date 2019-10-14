@@ -56,16 +56,6 @@
       with_items:
         - 139
         - 445
-    - name: Open Cups ports
-      ufw: >
-        rule=allow
-        port={{ item }}
-        proto=tcp
-      with_items:
-        - 631
-        
-      
-        
 
     - name: Create symlink to samba log file so the FC user can review logs
       file: 

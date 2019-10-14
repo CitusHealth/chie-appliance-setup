@@ -7,6 +7,10 @@
   roles:
     - geerlingguy.docker
   tasks:
+    - name: Install standard packages
+      yum:
+        name: ['docker-compose']
+        update_cache: yes
     - name: Download Python docker SDK
       pip:
         name: docker
