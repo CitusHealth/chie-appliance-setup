@@ -4,7 +4,7 @@
 	"wellSkyCPRPlusDbUser": "DbUser",
 	"wellSkyCPRPlusDbPassoword": "DbPassoword",
 	"wellSkyCPRPlusDbPort":1433,
-	"CPRPlusinstanceName":"DbinstanceName"
+	"CPRPlusDbinstanceName":"DbinstanceName"
 	"wellSkyCPRPlusDbTimeZoneOffset":-4,
 	"wellSkyCPRPlusDbPollingInterval":-1,
 	"filingCenterPath": "/src/progress_notes/json/",
