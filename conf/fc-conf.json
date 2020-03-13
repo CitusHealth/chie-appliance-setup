@@ -1,5 +1,7 @@
 {
 "CHA-OPT":"mnt",
 "CHA-SOL":"mnt",
-"CHA-OPTONE":"mnt"
+"CHA-OPTONE":"mnt",
+"faxqueueFilePath":"D:\\CH\\FileCenter",
+"faxqueueFileDelimiter":"\\"
 }
