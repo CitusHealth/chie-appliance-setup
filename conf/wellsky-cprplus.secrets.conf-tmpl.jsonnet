@@ -1,5 +1,7 @@
 {
 	"wellSkyCPRPlusDbHost": "DbHost",
+	"enableEncryption":0,
+	"encryptedWellskydDbCredentials":"hashedkeyhere",
 	"wellSkyCPRPlusDbName": "DbName",
 	"wellSkyCPRPlusDbUser": "DbUser",
 	"wellSkyCPRPlusDbPassoword": "DbPassoword",
@@ -8,8 +10,7 @@
 	"wellSkyCPRPlusDbTimeZoneOffset":-4,
 	"wellSkyCPRPlusDbPollingInterval":-1,
 	"filingCenterPath": "/src/progress_notes/json/",
-	"faxQueuePath":"/src/",
-	"faxqueuePathPattern":"[serverpath]\[YYYYMM]\[[MRN]\FileName]",
+	"faxqueuePathPattern":"[serverpath]/[YYYYMM]/[[MRN]/[FileName]",
 	"accountName": "Tenant account name",
 	"accountId": "Tenant account id",
 	"ModuleId": "Tenant Module id",
@@ -19,4 +20,3 @@
     "enableStoredProcedureForDocumentReference":0	
 
 }
-
