@@ -2,7 +2,6 @@
 		"wellSkyCPRPlusFHIRFacadeURL": "http://localhost:3000/3_0_1",
 		"wellSkyCPRPlusFHIRFacadeUserName": "xxxxxxxx",
 		"wellSkyCPRPlusFHIRFacadePassword": "xxxxxxxx",
-	    "decryptionKey":[ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ],
 	    "enableWellskyEncryption":0,
         "encryptedWellskyCredentials":"843caf96c34ed093bd4bc441",
 		"wellSkyPatientPollingFrequencyInMinutes": "1",
