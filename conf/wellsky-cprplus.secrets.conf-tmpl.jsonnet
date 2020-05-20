@@ -17,6 +17,6 @@
 	"enviornment": "Enviornment",
 	"isMultiBranch":0,
 	"enableStoredProcedureForProgressNote":0,
-    "enableStoredProcedureForDocumentReference":0	
-
+    "enableStoredProcedureForDocumentReference":0,
+	"integrationType":"site/company"
 }
