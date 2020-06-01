@@ -45,5 +45,6 @@
 "messageInterval": 5,
 "visibilityTimeOut": 0,
 "maxReceiveCount": 20,
-"invisibletime": 0
+"invisibletime": 0,
+"citusIntegrationStatusCode":200
 }
