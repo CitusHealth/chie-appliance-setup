@@ -17,6 +17,7 @@
 	"enviornment": "Enviornment",
 	"isMultiBranch":0,
 	"enableStoredProcedureForProgressNote":0,
+	"progressNoteStoredProcedureName":"CH_SP_Insert_Progress_Note",
     "enableStoredProcedureForDocumentReference":0,
 	"integrationType":"site/company"
 }
