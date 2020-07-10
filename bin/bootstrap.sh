@@ -21,7 +21,7 @@ sudo ansible-playbook -i "localhost," -c local $ASF_HOME/playbooks/ara.ansible-p
 
 title "Provision ZSH setup playbook for $(whoami)"
 sudo ansible-playbook -i "localhost," -c local $ASF_HOME/playbooks/zsh.ansible-playbook.yml --extra-vars="zsh_user=$(whoami)"
-cd $ASF_HOME && git checkout RHEL
+sudo cd $ASF_HOME && git checkout RHEL
 echo "****************************************************"
 echo "** ASF boostrapping process is complete.          **"
 echo "** ---------------------------------------------- **"
