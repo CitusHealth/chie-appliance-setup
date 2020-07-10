@@ -6,8 +6,8 @@ title() {
 }
 
 title "Install Python and Ansible"
-yum -y install epel-release
-yum  install -y curl wget ansible git make
+sudo yum -y install epel-release
+sudo yum  install -y curl wget ansible git make
 title "Install roles from Ansible Galaxy"
 sudo ansible-galaxy install viasite-ansible.zsh
 sudo ansible-galaxy install robertdebock.ara
@@ -21,7 +21,7 @@ sudo ansible-playbook -i "localhost," -c local $ASF_HOME/playbooks/ara.ansible-p
 
 title "Provision ZSH setup playbook for $(whoami)"
 sudo ansible-playbook -i "localhost," -c local $ASF_HOME/playbooks/zsh.ansible-playbook.yml --extra-vars="zsh_user=$(whoami)"
-
+cd $ASF_HOME && git checkout RHEL
 echo "****************************************************"
 echo "** ASF boostrapping process is complete.          **"
 echo "** ---------------------------------------------- **"
