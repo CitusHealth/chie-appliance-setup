@@ -31,7 +31,7 @@
 "cachingDatabasePort": 6379,
 "mrnKeyExpirationIntervalInSeconds": 86400,
 "authenticationURL": "ICAMPP url",
-"authenticationUserId ": "authenticationUseR",
+"authenticationUserId": "authenticationUseR",
 "authenticationUserPassword": "C3o15T@)t20R19i9!@Ll12",
 "authTokenValidationURL": "authenticationUserPassword ",
 "sessionTimeOutInMinutes": 2877,
