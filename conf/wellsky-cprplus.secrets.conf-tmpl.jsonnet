@@ -18,6 +18,7 @@
 	"isMultiBranch":0,
 	"enableStoredProcedureForProgressNote":0,
 	"progressNoteStoredProcedureName":"CH_SP_Insert_Progress_Note",
+	"documentReferenceStoredProcedureName":"CH_SP_Insert_Document",
     "enableStoredProcedureForDocumentReference":0,
 	"integrationType":"site/company",
 	"integrationMode":"create/update"
