@@ -10,6 +10,7 @@
 	"wellSkyCPRPlusDbTimeZoneOffset":-4,
 	"wellSkyCPRPlusDbPollingInterval":-1,
 	"filingCenterPath": "/src/progress_notes/json/",
+	"directLinkingPath":"/src/directLinking"
 	"faxqueuePathPattern":"[serverpath]/[YYYYMM]/[[MRN]/[FileName]",
 	"accountName": "Tenant account name",
 	"accountId": "Tenant account id",
