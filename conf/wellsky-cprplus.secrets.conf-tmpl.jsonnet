@@ -23,5 +23,8 @@
 	"documentReferenceStoredProcedureName":"CH_SP_Insert_Document",
     "enableStoredProcedureForDocumentReference":0,
 	"integrationType":"site/company",
-	"integrationMode":"create/update"
+	"integrationMode":"create/update",
+	"isGroupSiteOnboarding":0,
+    "multiSites":"",
+    "rxAlerts" : 0
 }

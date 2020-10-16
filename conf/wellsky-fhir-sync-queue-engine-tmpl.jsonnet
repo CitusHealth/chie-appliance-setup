@@ -49,5 +49,12 @@
 "visibilityTimeOut": 0,
 "maxReceiveCount": 20,
 "invisibletime": 0,
-"citusIntegrationStatusCode":200
+"citusIntegrationStatusCode":200,
+"enableRxAlerts":1,
+"delimiter":",",
+"isMultiSite":0,
+"tenantRegistrationToken":"596e092ab28cc",
+"citusFormsURL": "http://test-callbell.citushealth.com",
+"formCallbackURL": "http://10.10.11.158:1880/service/callback",
+"formIntegrationToken":"Y2l0dXN1c2VyOmNpdHVzcHdk"
 }
