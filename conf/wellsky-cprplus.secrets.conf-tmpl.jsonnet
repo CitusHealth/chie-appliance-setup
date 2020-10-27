@@ -10,6 +10,8 @@
 	"wellSkyCPRPlusDbTimeZoneOffset":-4,
 	"wellSkyCPRPlusDbPollingInterval":-1,
 	"filingCenterPath": "/src/progress_notes/json/",
+	"directLinkingPath":"/src/directLinking/",
+	"faxQueuePath":"/src/",
 	"faxqueuePathPattern":"[serverpath]/[YYYYMM]/[[MRN]/[FileName]",
 	"accountName": "Tenant account name",
 	"accountId": "Tenant account id",
@@ -18,6 +20,11 @@
 	"isMultiBranch":0,
 	"enableStoredProcedureForProgressNote":0,
 	"progressNoteStoredProcedureName":"CH_SP_Insert_Progress_Note",
+	"documentReferenceStoredProcedureName":"CH_SP_Insert_Document",
     "enableStoredProcedureForDocumentReference":0,
-	"integrationType":"site/company"
+	"integrationType":"site/company",
+	"integrationMode":"create/update",
+	"isGroupSiteOnboarding":0,
+    "multiSites":"",
+    "rxAlerts" : 0
 }
