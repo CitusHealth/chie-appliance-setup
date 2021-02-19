@@ -56,5 +56,7 @@
 "tenantRegistrationToken":"596e092ab28cc",
 "citusFormsURL": "http://test-callbell.citushealth.com",
 "formCallbackURL": "http://10.10.11.158:1880/service/callback",
-"formIntegrationToken":"Y2l0dXN1c2VyOmNpdHVzcHdk"
+"formIntegrationToken":"Y2l0dXN1c2VyOmNpdHVzcHdk",
+"fileCacheKeyExpirationIntervalInSeconds":432000,
+"documentFileCacheKeyExpirationIntervalInSeconds":432000
 }

@@ -1,4 +1,4 @@
  {
- 	"CHA_IN": "/mnt/filing-center-primary,\\\\0.0.1.0\\callbell\\CPR+ to Citus Health,\\",
- 	"CHA_PRM ": "/mnt/filing-center,\\\\10.13,\\"
+ 	"CHA_OPTMHLFC": "/mnt/filing-center-primary,\\\\oip-cprsql\\cprsql$\\Faxes,\\",
+ 	"CHA_intra ": "/mnt/filing-center-intra,\\\\10.13,\\",
  }

@@ -1,24 +1,41 @@
 {
-	"sites": [{
-			"sitesInfo": {
-				"clientId": "abcd3434534",
-				"sitesNos": "1,2,3"
-
-			}
-		},
-		{
-			"sitesInfo": {
-				"clientId": "fffhhjj",
-				"sitesNos": "4,5,6"
-
-			}
-		},
-		{
-			"sitesInfo": {
-				"clientId": "tuvd3434531",
-				"sitesNos": "7,8,9"
-
-			}
-		}
-	]
+  "sites": [
+    {
+      "sitesInfo": {
+        "clientId": "abcd3434534",
+        "sitesNos": "1,2,3"
+      }
+    },
+    {
+      "sitesInfo": {
+        "clientId": "fffhhjj",
+        "sitesNos": "4,5,6"
+      }
+    },
+    {
+      "sitesInfo": {
+        "clientId": "tuvd3434531",
+        "sitesNos": "7,8,9"
+      }
+    }
+  ],
+  "teams": [
+    {
+      "teamInfo": {
+        "clientId": "abcd3434534",
+        "teamIds": [
+          "White"
+        ]
+      }
+    },
+    {
+      "teamInfo": {
+        "clientId": "fffhhjj",
+        "teamIds": [
+          "Carex",
+          "Red"
+        ]
+      }
+    }
+  ]
 }
