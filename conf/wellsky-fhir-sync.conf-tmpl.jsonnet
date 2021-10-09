@@ -58,5 +58,7 @@
 	"formCallbackURL": "http://10.10.11.158:1880/service/callback",
 	"formIntegrationToken": "Y2l0dXN1c2VyOmNpdHVzcHdk",
 	"fileCacheKeyExpirationIntervalInSeconds": 432000,
-	"documentFileCacheKeyExpirationIntervalInSeconds": 432000
+	"documentFileCacheKeyExpirationIntervalInSeconds": 432000,
+	"enableDLtiffconversion": 0,
+	"enableFaxqueuetiffConversion::0
 }

@@ -1,0 +1,19 @@
+{
+"path":{
+"tenant1":{"sourcePath":"/mnt/fcpath1",
+	   "dest":"/opt/fq1"
+	   },
+"tenant2":{"sourcePath":"/mnt/fcpath1",
+	   "dest":"/opt/fq1"
+	   },
+"tenant3":{"sourcePath":"/opt/fq1",
+	   "dest":"/opt/fq1"
+	   }
+},
+"directLinkingArchiveFolderPathForDocuments": "/opt/Archive/fq",
+"time":150000
+
+
+
+}
+

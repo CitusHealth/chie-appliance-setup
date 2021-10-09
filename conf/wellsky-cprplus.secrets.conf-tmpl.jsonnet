@@ -26,5 +26,7 @@
 	"integrationMode":"create/update",
 	"isGroupSiteOnboarding":0,
     "multiSites":"",
-    "rxAlerts" : 0
+    "rxAlerts" : 0,
+    "enableDLtiffconversion" : 1
+	
 }
