@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"wellSkyCPRPlusDbHost": "DbHost",
 	"enableEncryption":0,
 	"encryptedWellskydDbCredentials":"hashedkeyhere",
@@ -30,3 +31,33 @@
     "enableDLtiffconversion" : 1
 	
 }
+=======
+     "wellSkyCPRPlusDbHost": "",
+     "enableEncryption": 0,
+     "encryptedWellskydDbCredentials": "9435fcb2c647d494f8248615d3655fd68c8ca1c063e63c1307e08eee36efe4c7",
+     "wellSkyCPRPlusDbName": "",
+     "wellSkyCPRPlusDbUser": "",
+     "wellSkyCPRPlusDbPassoword": "",
+     "wellSkyCPRPlusDbPort": 1433,
+     "wellSkyCPRPlusDbTimeZoneOffset": -4,
+     "wellSkyCPRPlusDbPollingInterval": -2,
+     "filingCenterPath": "/src/progress_notes/json/",
+     "directLinkingPath": "/src/directLinking/",
+     "faxqueuePathPattern": "[serverpath]/[YYYYMM]/[FileName]",
+     "accountName": "NELC",
+     "accountId": "NELC",
+     "ModuleId": "NELC Fhir facade",
+     "enviornment": "Production",
+     "isMultiBranch": 0,
+     "enableStoredProcedureForProgressNote": 0,
+     "enableStoredProcedureForDocumentReference": 0,
+     "progressNoteStoredProcedureName": "CH_SP_Insert_Progress_Note",
+     "documentReferenceStoredProcedureName": "CH_SP_Insert_Document",
+     "integrationType": "site",
+     "integrationMode": "update",
+     "isGroupSiteOnboarding": 0,
+     "multiSites": "",
+     "rxAlerts": 0,
+     "patientSearchQuery":""
+}
+>>>>>>> 865f0604841c3cb4a1d032cc024a2cbec430735e
