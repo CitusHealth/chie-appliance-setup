@@ -1,16 +1,10 @@
 {
 "path":{
-"tenant1":{"sourcePath":"/mnt/fcpath1",
-	   "dest":"/opt/fq1"
-	   },
-"tenant2":{"sourcePath":"/mnt/fcpath1",
-	   "dest":"/opt/fq1"
-	   },
-"tenant3":{"sourcePath":"/opt/fq1",
-	   "dest":"/opt/fq1"
+"tenant1":{"sourcePath":"/mnt/filing-center-primary/Citus Health to CPR+/Documents",
+	   "dest":"/opt/mounts/fromcitus/fromcitus-sandbox/citusdata/FAXQUEUE"
 	   }
 },
-"directLinkingArchiveFolderPathForDocuments": "/opt/Archive/fq",
+"directLinkingArchiveFolderPathForDocuments": "/mnt/filing-center-primary/Archive/Direct Linking",
 "time":150000
 
 
