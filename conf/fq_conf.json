@@ -1,0 +1,13 @@
+{
+"path":{
+"tenant1":{"sourcePath":"/mnt/filing-center-primary/Citus Health to CPR+/Documents",
+	   "dest":"/opt/mounts/fromcitus/fromcitus-sandbox/citusdata/FAXQUEUE"
+	   }
+},
+"directLinkingArchiveFolderPathForDocuments": "/mnt/filing-center-primary/Archive/Direct Linking",
+"time":30
+
+
+
+}
+
