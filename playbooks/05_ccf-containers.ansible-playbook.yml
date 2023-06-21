@@ -10,13 +10,7 @@
        name: https://{{ chp_github_account | urlencode }}:{{ chp_github_account_token | urlencode }}@github.com/CitusHealthIntegrationEngine/{{ chp_github_accout_name }}.git
        dest: '{{citus_health_containers_path}}'
        force: yes
-
-    - name: Clone Citus Health Integration Engine (CHIE) scripts
-      git:
-       name: https://{{ chp_github_account_scripts | urlencode }}:{{ chp_github_account_token_scripts | urlencode }}@github.com/CitusHealthIntegrationEngine/{{ chp_github_accout_name_scripts }}.git
-       dest: '{{citus_health_script_path}}'
-       force: yes
-
+       
     - name: Create Appliance Admin User Common runtime config and Secrets directory
       file:
         path: "{{ item }}"
