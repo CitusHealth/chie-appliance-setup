@@ -45,4 +45,5 @@
     
     - name: Go to Grafana directory and install Grafana CCF container service
       command: chdir={{ grafana_ccf_container_path }} ccfmake start
+      
 
